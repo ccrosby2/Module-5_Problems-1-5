@@ -1,0 +1,16 @@
+#Cierra Crosby
+#2/16/2024
+#Instructor Nathan Braun
+#This program prints a statement if a range of numbers are divisible by 3 using their remainder value
+#This progrom uses 3,5,and 15 to caluculate the range of numbers 1-50 remainder
+#This program prints if a number is not divisble by 3, 5, and 15.
+
+for x in range (1,50):
+  if x % 15 == 0:
+    print ("Divisible by both")
+  elif x % 5 == 0:
+    print ("Divisible by five")
+  elif x % 3 == 0:
+    print ("Divisible by three")
+  else: 
+    print(x)
