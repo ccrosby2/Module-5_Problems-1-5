@@ -1,0 +1,24 @@
+#Cierra Crosby
+#Instructor Nathan Braun
+#2/16/2024
+#CSS 225
+#This program prints the number of sides, the length of the side,the color of a line, and fill color of a shape
+#This program should draw the shape and fill it in
+
+import turtle
+Alex=turtle.Turtle()
+wn=turtle.Screen()
+
+sides = input ("Number of sides in turtle?")
+length = input ("Length of the sides in turtle")
+colorname = input ("Color of turtle?")
+fcolor = input ("Fill color of polygon?")
+
+Alex.color = (colorname)
+Alex.fillcolor = (fcolor)
+
+for i in range (sides):
+  Alex.forward(length)
+  Alex.left(360/ sides)
+
+wn.exitonclick()
