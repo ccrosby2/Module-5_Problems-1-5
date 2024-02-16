@@ -1,0 +1,29 @@
+#Cierra Crosby
+#Instructor Nathan Braun
+#CSS 225
+#2/16/2024
+#This program prints draw some kind of picture using turtles.
+
+import turtle
+
+wn=turtle.Screen()
+wn.bgcolor("lightblue")
+Cierra= turtle.Turtle()
+Cierra.color("white")
+Cierra.shape("turtle")
+Cierra.penup()
+
+print (range(400))
+Cierra.up() 
+
+for size in range(400): 
+	Cierra.stamp()
+	Cierra.forward(size) 
+	Cierra.right(3)
+	Cierra.forward(size)
+	Cierra.right(40)
+	Cierra.backward(size)
+	Cierra.backward(120)
+	
+
+wn.exitonclick()
