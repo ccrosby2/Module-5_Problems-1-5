@@ -1,0 +1,7 @@
+#Cierra Crosby
+#CSS 225
+#2/16/2024
+#This program prints Hello World 100 times
+
+for i in range(100):
+  print ("Hello World")
