@@ -1,0 +1,14 @@
+#Cierra Crosby
+#Instructor Nathan Braun
+#2/16/2024
+#CSS 225
+#This program prints a list of numbers "12,10,32,3,66,17,42,99,20")
+#This program prints a list of numbers "12, 10, 32, 3, 66, 17, 42,99,20 to the power of 2 with a statement"
+
+print ("This is a list of the following numbers: 12, 10, 32, 3, 66,17,42,99,20")
+mylist = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+for i in mylist:
+  print(i)
+print ("This is a list of numbres 12, 10, 32, 3, 66, 17, 42, 99, 20 with exponents to power of two")
+for j in mylist:
+  print (j,"to the power of 2",j**2)
